@@ -1,0 +1,90 @@
+main{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    float: left;
+
+}
+body{
+    background-image: url(img/fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.home{
+    width: 100px;
+    height: 100px;
+}
+#b{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 70% 5fr 1fr 1fr 1fr;
+    float: left;
+}
+.b_text{
+    text-align: right;
+    font-size: 40px;
+}
+.b_img{
+    width:70px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#logo{
+    width: 1600px;
+    height: 550px;
+    border: 10px initial;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+strong{
+    color: #00ff00;
+}
+section{
+    width: 100%;
+    height: auto;
+    float: left;
+    display: grid;
+    grid-template-rows: 7;
+    grid-template-columns: 190px 190px 190px 190px 190px 190px 190px 190px;
+}
+article{
+    width: 98%;
+    height: auto;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+}
+.img-article{
+    width: 150px;
+    height: 150px;
+}
+.h3-article{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+#logo{
+    width: 1600px;
+    height: 550px;
+    border: 10px initial;
+    border-radius: 60px;
+}
